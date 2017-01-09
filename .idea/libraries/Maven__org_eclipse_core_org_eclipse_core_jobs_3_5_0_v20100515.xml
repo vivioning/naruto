@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.eclipse.core:org.eclipse.core.jobs:3.5.0.v20100515">
     <CLASSES>
-      <root url="jar://E:/maven_jar/org/eclipse/core/org.eclipse.core.jobs/3.5.0.v20100515/org.eclipse.core.jobs-3.5.0.v20100515.jar!/" />
+      <root url="jar://E:/repo/m2repo/hakim/public1/org/eclipse/core/org.eclipse.core.jobs/3.5.0.v20100515/org.eclipse.core.jobs-3.5.0.v20100515.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://E:/maven_jar/org/eclipse/core/org.eclipse.core.jobs/3.5.0.v20100515/org.eclipse.core.jobs-3.5.0.v20100515-javadoc.jar!/" />
+      <root url="jar://E:/repo/m2repo/hakim/public1/org/eclipse/core/org.eclipse.core.jobs/3.5.0.v20100515/org.eclipse.core.jobs-3.5.0.v20100515-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://E:/maven_jar/org/eclipse/core/org.eclipse.core.jobs/3.5.0.v20100515/org.eclipse.core.jobs-3.5.0.v20100515-sources.jar!/" />
+      <root url="jar://E:/repo/m2repo/hakim/public1/org/eclipse/core/org.eclipse.core.jobs/3.5.0.v20100515/org.eclipse.core.jobs-3.5.0.v20100515-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

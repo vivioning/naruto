@@ -31,12 +31,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="naruto" target="1.8" />
-      <module name="naruto-api" target="1.8" />
-      <module name="naruto-codegenerator" target="1.8" />
-      <module name="naruto-dao" target="1.8" />
-      <module name="naruto-model" target="1.8" />
-      <module name="naruto-service" target="1.8" />
+      <module name="naruto" target="1.5" />
+      <module name="naruto-api" target="1.5" />
+      <module name="naruto-codegenerator" target="1.5" />
+      <module name="naruto-dao" target="1.5" />
+      <module name="naruto-model" target="1.5" />
+      <module name="naruto-service" target="1.6" />
       <module name="naruto-webapp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
