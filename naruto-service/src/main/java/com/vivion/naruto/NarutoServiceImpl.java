@@ -3,6 +3,7 @@ package com.vivion.naruto;
 import com.vivion.naruto.bean.Member;
 import com.vivion.naruto.dao.MemberDao;
 import com.vivion.naruto.enums.MemberParamter;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
 /**
  * Created by Mr.vivion on 2017/1/8.
  */
+@Service
 public class NarutoServiceImpl implements NarutoService {
     @Resource
     private MemberDao memberDao;

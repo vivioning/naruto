@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.eclipse.osgi:org.eclipse.osgi.services:3.2.100.v20100503">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/osgi/org.eclipse.osgi.services/3.2.100.v20100503/org.eclipse.osgi.services-3.2.100.v20100503.jar!/" />
+      <root url="jar://E:/maven_jar/org/eclipse/osgi/org.eclipse.osgi.services/3.2.100.v20100503/org.eclipse.osgi.services-3.2.100.v20100503.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/osgi/org.eclipse.osgi.services/3.2.100.v20100503/org.eclipse.osgi.services-3.2.100.v20100503-javadoc.jar!/" />
+      <root url="jar://E:/maven_jar/org/eclipse/osgi/org.eclipse.osgi.services/3.2.100.v20100503/org.eclipse.osgi.services-3.2.100.v20100503-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/osgi/org.eclipse.osgi.services/3.2.100.v20100503/org.eclipse.osgi.services-3.2.100.v20100503-sources.jar!/" />
+      <root url="jar://E:/maven_jar/org/eclipse/osgi/org.eclipse.osgi.services/3.2.100.v20100503/org.eclipse.osgi.services-3.2.100.v20100503-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

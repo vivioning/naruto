@@ -1,7 +1,7 @@
 package com.vivion.naruto.dao;
 
-import com.hkfs.fundamental.database.DaoBase;
 import com.vivion.naruto.bean.Member;
+import com.vivion.naruto.dao.base.DaoBase;
 import org.springframework.stereotype.Repository;
 
 @Repository

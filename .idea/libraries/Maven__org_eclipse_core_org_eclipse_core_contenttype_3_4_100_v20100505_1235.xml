@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.eclipse.core:org.eclipse.core.contenttype:3.4.100.v20100505-1235">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/core/org.eclipse.core.contenttype/3.4.100.v20100505-1235/org.eclipse.core.contenttype-3.4.100.v20100505-1235.jar!/" />
+      <root url="jar://E:/maven_jar/org/eclipse/core/org.eclipse.core.contenttype/3.4.100.v20100505-1235/org.eclipse.core.contenttype-3.4.100.v20100505-1235.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/core/org.eclipse.core.contenttype/3.4.100.v20100505-1235/org.eclipse.core.contenttype-3.4.100.v20100505-1235-javadoc.jar!/" />
+      <root url="jar://E:/maven_jar/org/eclipse/core/org.eclipse.core.contenttype/3.4.100.v20100505-1235/org.eclipse.core.contenttype-3.4.100.v20100505-1235-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/core/org.eclipse.core.contenttype/3.4.100.v20100505-1235/org.eclipse.core.contenttype-3.4.100.v20100505-1235-sources.jar!/" />
+      <root url="jar://E:/maven_jar/org/eclipse/core/org.eclipse.core.contenttype/3.4.100.v20100505-1235/org.eclipse.core.contenttype-3.4.100.v20100505-1235-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

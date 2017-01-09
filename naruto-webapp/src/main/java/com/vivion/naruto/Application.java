@@ -1,18 +1,22 @@
 package com.vivion.naruto;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 
 /**
  * Created by Mr.vivion on 2017/1/8.
  */
-@AutoConfigurationPackage
 
+
+@Configuration
 @SpringBootApplication
-
+@ComponentScan(
+        basePackages = {"com.vivion.naruto"}
+)
+@ImportResource(locations={"classpath*:applicationContext-database.xml"})
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

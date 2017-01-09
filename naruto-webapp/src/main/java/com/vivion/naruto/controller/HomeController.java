@@ -31,7 +31,8 @@ public class HomeController {
     }
 
 
-    @RequestMapping(value = "/test",method= RequestMethod.GET)
+    @ResponseBody
+    @RequestMapping(value = "/test")
     public String test() {
         return "你数组";
     }
