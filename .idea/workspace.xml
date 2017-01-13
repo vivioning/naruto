@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e6f156b-20c5-49a0-a80b-99bdf0ec23be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/NinjaService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/enums/MemberNinjaView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-dao/src/main/java/com/vivion/naruto/dao/MemberTeamDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-dao/src/main/resources/mappers/MemberTeamMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-model/src/main/java/com/vivion/naruto/bean/MemberTeam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NinjaServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NinjaController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/TeamController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NarutoController.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/TeamService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/TeamServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/enums/MemberView.java" afterPath="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/enums/MemberView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java" afterPath="$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-dao/src/main/resources/mappers/MemberMapper.xml" afterPath="$PROJECT_DIR$/naruto-dao/src/main/resources/mappers/MemberMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-model/src/main/java/com/vivion/naruto/bean/Member.java" afterPath="$PROJECT_DIR$/naruto-model/src/main/java/com/vivion/naruto/bean/Member.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NarutoServiceImpl.java" afterPath="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NarutoServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/HomeController.java" afterPath="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NatutoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/TeamController.java" afterPath="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/TeamController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,13 +33,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TeamController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TeamController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/TeamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="57" />
+            <state relative-caret-position="475">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/TeamService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/TeamServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,7 +156,9 @@
         <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/enums/MemberView.java" />
         <option value="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NinjaServiceImpl.java" />
         <option value="$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/TeamService.java" />
         <option value="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/TeamController.java" />
+        <option value="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/TeamServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -236,6 +261,31 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -382,6 +432,138 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -399,6 +581,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vivion.naruto" />
       <recent name="com.vivion.naruto.dao.base" />
       <recent name="com.vivion.naruto.enums" />
       <recent name="" />
@@ -411,7 +594,7 @@
       <recent name="H:\naruto\naruto-webapp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HyrzCodeGenerator">
+  <component name="RunManager" selected="Application.Application">
     <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -913,8 +1096,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.HyrzCodeGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HyrzCodeGenerator" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -961,7 +1144,7 @@
       <workItem from="1483957806802" duration="47000" />
       <workItem from="1484011939281" duration="30000" />
       <workItem from="1484187046637" duration="9513000" />
-      <workItem from="1484288476727" duration="7771000" />
+      <workItem from="1484288476727" duration="8314000" />
     </task>
     <task id="LOCAL-00001" summary="火影忍者开发">
       <created>1483929398921</created>
@@ -984,11 +1167,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484288666658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="小队分配">
+      <created>1484300604953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484300604953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27200000" />
+    <option name="totallyTimeSpent" value="27743000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1024,7 +1214,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36789298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3671875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1050,11 +1240,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="火影忍者开发" />
     <MESSAGE value="开发中" />
-    <option name="LAST_COMMIT_MESSAGE" value="开发中" />
+    <MESSAGE value="小队分配" />
+    <option name="LAST_COMMIT_MESSAGE" value="小队分配" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/TeamServiceImpl.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1063,8 +1262,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/naruto-dao/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NatutoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -2515,17 +2712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/naruto-model/src/main/java/com/vivion/naruto/bean/Member.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -2625,6 +2811,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/TeamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/TeamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NinjaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -2645,13 +2851,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/TeamController.java">
+    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="57" />
+        <state relative-caret-position="323">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/TeamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
