@@ -1,7 +1,9 @@
 package com.vivion.naruto;
 
+import com.hkfs.fundamental.api.data.ResultEx;
 import com.vivion.naruto.bean.Member;
-import com.vivion.naruto.enums.MemberParamter;
+import com.vivion.naruto.enums.MemberView;
+import com.vivion.naruto.enums.VerifyInfoView;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,6 +13,38 @@ import java.util.List;
  */
 @Service
 public interface NarutoService {
+    /**
+     * 获取成员信息
+     * @param memberView
+     * @return
+     */
+    public List<Member> getUserList(MemberView memberView);
 
-    public List<Member> getUserList(MemberParamter memberParamter);
+    /**
+     * 新增成员信息
+     * @param memberView
+     * @return
+     */
+    public ResultEx addUser(MemberView memberView);
+
+    /**
+     * 修改成员信息
+     * @param memberView
+     * @return
+     */
+    public ResultEx modifyUser(MemberView memberView);
+
+    /**
+     * 删除成员信息
+     * @param memberView
+     * @return
+     */
+    public ResultEx deleteUser(MemberView memberView);
+
+    /**
+     * 验证信息
+     * @param verifyInfoView
+     * @return
+     */
+    public ResultEx verify(VerifyInfoView verifyInfoView);
 }

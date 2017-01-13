@@ -55,7 +55,7 @@ public class HyrzCodeGenerator {
         //查询数据库获取table
         Table[] tables = MySql.newInstance(connection)
                 .include(
-                        "tb_member"
+                        "tb_member_ninja_log"
                 ).getTables();
         //将table转换成class
         com.hkfs.fundamental.codegenerator.basis.data.Class[] pojoClasses = tableToClassTranslator.translate(tables);
@@ -105,7 +105,8 @@ public class HyrzCodeGenerator {
     //将mapper转换成dao的接口
     private static Interface[] translate(Mapper[] mappers) {
         List<Interface> list = new ArrayList<Interface>();
-        String parentBaseMapperName = "com.hkfs.fundamental.database.DaoBase<T, Long>";
+        //com.vivion.naruto.dao.base.DaoBase;
+        String parentBaseMapperName = "com.vivion.naruto.dao.base.DaoBase<T, Long>";
         for (Mapper mapper : mappers) {
             String parentMapperName = parentBaseMapperName.replace("<T,", "<"+mapper.pojoClass.fullClassName+",");
             Interface it = new Interface(mapper.processNamespace()).setParentInterface(new Interface(parentMapperName));
