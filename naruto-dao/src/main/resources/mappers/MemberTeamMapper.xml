@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vivion.naruto.dao.MemberTeamDao">
+    
+    <sql id="requestAllFields">
+        <![CDATA[
+            id,
+            member,
+            fightingA,
+            fightingB,
+            position,
+            createTime,
+            isValid
+        ]]>
+    </sql>
+    
+    <sql id="whereClause">
+        <where>
+            <if test="null!=id">AND id = #{id}</if>
+            <if test="null!=member and ''!=member">AND member = #{member}</if>
+            <if test="null!=fightingA and ''!=fightingA">AND fightingA = #{fightingA}</if>
+            <if test="null!=fightingB and ''!=fightingB">AND fightingB = #{fightingB}</if>
+            <if test="null!=position and ''!=position">AND position = #{position}</if>
+            <if test="null!=isValid">AND isValid = #{isValid}</if>
+            <include refid="extendedWhereClause" />
+        </where>
+    </sql>
+    
+    <insert id="add" useGeneratedKeys="true" parameterType="com.vivion.naruto.bean.MemberTeam" keyProperty="id">
+        INSERT INTO tb_member_team
+        <trim prefix="(" suffix=")" prefixOverrides=",">
+            <if test="null!=member and ''!=member">,member</if>
+            <if test="null!=fightingA and ''!=fightingA">,fightingA</if>
+            <if test="null!=fightingB and ''!=fightingB">,fightingB</if>
+            <if test="null!=position and ''!=position">,position</if>
+            <if test="null!=createTime">,createTime</if>
+            <if test="null!=isValid">,isValid</if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" prefixOverrides=",">
+            <if test="null!=member and ''!=member">,#{member}</if>
+            <if test="null!=fightingA and ''!=fightingA">,#{fightingA}</if>
+            <if test="null!=fightingB and ''!=fightingB">,#{fightingB}</if>
+            <if test="null!=position and ''!=position">,#{position}</if>
+            <if test="null!=createTime">,#{createTime}</if>
+            <if test="null!=isValid">,#{isValid}</if>
+        </trim>
+    </insert>
+    
+    <update id="update" parameterType="com.vivion.naruto.bean.MemberTeam">
+        UPDATE tb_member_team
+        <trim prefix="SET" prefixOverrides=",">
+            <if test="null!=member and ''!=member">,member = #{member}</if>
+            <if test="null!=fightingA and ''!=fightingA">,fightingA = #{fightingA}</if>
+            <if test="null!=fightingB and ''!=fightingB">,fightingB = #{fightingB}</if>
+            <if test="null!=position and ''!=position">,position = #{position}</if>
+            <if test="null!=createTime">,createTime = #{createTime}</if>
+            <if test="null!=isValid">,isValid = #{isValid}</if>
+            <include refid="extendedUpdateSql" />
+        </trim>
+        WHERE id = #{id}
+    </update>
+    
+    <select id="query" parameterType="com.vivion.naruto.bean.MemberTeam" resultType="com.vivion.naruto.bean.MemberTeam">
+        SELECT <include refid="requestAllFields"/> FROM tb_member_team
+        <include refid="whereClause" />
+        <include refid="extendedOrderByClause" />
+        <if test="null!=requestOffset">
+            LIMIT #{requestOffset}, #{requestCount}
+        </if>
+    </select>
+    
+    <select id="get" parameterType="com.vivion.naruto.bean.MemberTeam" resultType="com.vivion.naruto.bean.MemberTeam">
+        SELECT <include refid="requestAllFields"/> FROM tb_member_team
+        <include refid="whereClause" />
+        LIMIT 1
+    </select>
+    
+    <select id="getById" parameterType="long" resultType="com.vivion.naruto.bean.MemberTeam">
+        SELECT <include refid="requestAllFields"/> FROM tb_member_team WHERE id = #{id}
+    </select>
+    
+    <select id="count" parameterType="com.vivion.naruto.bean.MemberTeam" resultType="int">
+        SELECT COUNT(1) FROM tb_member_team <include refid="whereClause" />
+    </select>
+    
+    <!-- 扩展的更新等语句（自定义）-->
+    <sql id="extendedUpdateSql">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+    <!-- 扩展的条件过滤语句（自定义）-->
+    <sql id="extendedWhereClause">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+    <!-- 扩展的排序等语句（自定义）-->
+    <sql id="extendedOrderByClause">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+</mapper>

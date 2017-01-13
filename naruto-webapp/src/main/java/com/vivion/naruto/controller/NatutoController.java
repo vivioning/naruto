@@ -19,9 +19,9 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/naruto")
-public class HomeController {
+public class NatutoController {
 
-    private static Logger logger = LoggerFactory.getLogger(HomeController.class);
+    private static Logger logger = LoggerFactory.getLogger(NatutoController.class);
 
     @Autowired
     private NarutoService narutoService;

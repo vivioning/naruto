@@ -7,7 +7,8 @@
         <![CDATA[
             id,
             nickName,
-            fightingForce,
+            fighting,
+            magicResistance,
             position,
             isValid
         ]]>
@@ -17,7 +18,8 @@
         <where>
             <if test="null!=id">AND id = #{id}</if>
             <if test="null!=nickName and ''!=nickName">AND nickName = #{nickName}</if>
-            <if test="null!=fightingForce and ''!=fightingForce">AND fightingForce = #{fightingForce}</if>
+            <if test="null!=fighting and ''!=fighting">AND fighting = #{fighting}</if>
+            <if test="null!=magicResistance and ''!=magicResistance">AND magicResistance = #{magicResistance}</if>
             <if test="null!=position and ''!=position">AND position = #{position}</if>
             <if test="null!=isValid">AND isValid = #{isValid}</if>
             <include refid="extendedWhereClause" />
@@ -28,14 +30,16 @@
         INSERT INTO tb_member
         <trim prefix="(" suffix=")" prefixOverrides=",">
             <if test="null!=nickName and ''!=nickName">,nickName</if>
-            <if test="null!=fightingForce and ''!=fightingForce">,fightingForce</if>
+            <if test="null!=fighting and ''!=fighting">,fighting</if>
+            <if test="null!=magicResistance and ''!=magicResistance">,magicResistance</if>
             <if test="null!=position and ''!=position">,position</if>
             <if test="null!=isValid">,isValid</if>
         </trim>
         VALUES
         <trim prefix="(" suffix=")" prefixOverrides=",">
             <if test="null!=nickName and ''!=nickName">,#{nickName}</if>
-            <if test="null!=fightingForce and ''!=fightingForce">,#{fightingForce}</if>
+            <if test="null!=fighting and ''!=fighting">,#{fighting}</if>
+            <if test="null!=magicResistance and ''!=magicResistance">,#{magicResistance}</if>
             <if test="null!=position and ''!=position">,#{position}</if>
             <if test="null!=isValid">,#{isValid}</if>
         </trim>
@@ -45,7 +49,8 @@
         UPDATE tb_member
         <trim prefix="SET" prefixOverrides=",">
             <if test="null!=nickName and ''!=nickName">,nickName = #{nickName}</if>
-            <if test="null!=fightingForce and ''!=fightingForce">,fightingForce = #{fightingForce}</if>
+            <if test="null!=fighting and ''!=fighting">,fighting = #{fighting}</if>
+            <if test="null!=magicResistance and ''!=magicResistance">,magicResistance = #{magicResistance}</if>
             <if test="null!=position and ''!=position">,position = #{position}</if>
             <if test="null!=isValid">,isValid = #{isValid}</if>
             <include refid="extendedUpdateSql" />

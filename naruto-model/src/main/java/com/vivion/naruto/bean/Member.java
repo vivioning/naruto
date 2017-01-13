@@ -12,9 +12,13 @@ public class Member extends PojoDataObjectBase {
      */
     private String nickName;
     /**
-     * 战斗力
+     * 最高战斗力
      */
-    private String fightingForce;
+    private String fighting;
+    /**
+     * 饰品抗魔
+     */
+    private String magicResistance;
     /**
      * 职位
      */
@@ -35,11 +39,17 @@ public class Member extends PojoDataObjectBase {
     public void setNickName(String nickName) {
         this.nickName = nickName;
     }
-    public String getFightingForce() {
-        return this.fightingForce;
+    public String getFighting() {
+        return this.fighting;
     }
-    public void setFightingForce(String fightingForce) {
-        this.fightingForce = fightingForce;
+    public void setFighting(String fighting) {
+        this.fighting = fighting;
+    }
+    public String getMagicResistance() {
+        return this.magicResistance;
+    }
+    public void setMagicResistance(String magicResistance) {
+        this.magicResistance = magicResistance;
     }
     public String getPosition() {
         return this.position;

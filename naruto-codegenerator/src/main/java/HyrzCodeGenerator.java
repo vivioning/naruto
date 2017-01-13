@@ -55,7 +55,7 @@ public class HyrzCodeGenerator {
         //查询数据库获取table
         Table[] tables = MySql.newInstance(connection)
                 .include(
-                        "tb_member_ninja_log"
+                        "tb_member_team"
                 ).getTables();
         //将table转换成class
         com.hkfs.fundamental.codegenerator.basis.data.Class[] pojoClasses = tableToClassTranslator.translate(tables);

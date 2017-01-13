@@ -16,7 +16,11 @@ public class MemberView {
      * 战斗力
      */
     @NotNull(message = "战斗力不能为空")
-    private String fightingForce;
+    private String fighting;
+    /**
+     * 饰品抗魔
+     */
+    private String magicResistance;
     /**
      * 职位
      */
@@ -25,6 +29,14 @@ public class MemberView {
      * 是否有效
      */
     private Integer isValid;
+
+    public String getMagicResistance() {
+        return magicResistance;
+    }
+
+    public void setMagicResistance(String magicResistance) {
+        this.magicResistance = magicResistance;
+    }
 
     public Long getId() {
         return id;
@@ -42,12 +54,12 @@ public class MemberView {
         this.nickName = nickName;
     }
 
-    public String getFightingForce() {
-        return fightingForce;
+    public String getFighting() {
+        return fighting;
     }
 
-    public void setFightingForce(String fightingForce) {
-        this.fightingForce = fightingForce;
+    public void setFighting(String fighting) {
+        this.fighting = fighting;
     }
 
     public String getPosition() {

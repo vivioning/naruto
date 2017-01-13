@@ -26,8 +26,6 @@ public class NarutoServiceImpl implements NarutoService {
     public List<Member> getUserList(MemberView memberView) {
         Member member = new Member();
         member.setIsValid(1);
-        List<Member> members = memberDao.query(member);
-        //logger.info(String.valueOf(memberDao.query(member)));
         return memberDao.query(member);
     }
 
@@ -35,7 +33,7 @@ public class NarutoServiceImpl implements NarutoService {
     public ResultEx addUser(MemberView memberView) {
         ResultEx resultEx = new ResultEx();
         Member member = new Member();
-        BeanUtils.copyProperties(memberView,member);
+        BeanUtils.copyProperties(memberView, member);
         member.setIsValid(1);
         memberDao.add(member);
         return resultEx.makeSuccessResult();
