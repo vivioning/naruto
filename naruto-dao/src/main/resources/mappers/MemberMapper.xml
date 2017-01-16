@@ -76,7 +76,32 @@
     <select id="getById" parameterType="long" resultType="com.vivion.naruto.bean.Member">
         SELECT <include refid="requestAllFields"/> FROM tb_member WHERE id = #{id}
     </select>
-    
+
+
+
+    <select id="getTop6" parameterType="com.vivion.naruto.bean.Member" resultType="com.vivion.naruto.bean.Member">
+        SELECT <include refid="requestAllFields"/> FROM tb_member ORDER BY fighting DESC limit 6
+    </select>
+
+    <select id="getByLimit" parameterType="com.vivion.naruto.bean.Member" resultType="com.vivion.naruto.bean.Member">
+        SELECT <include refid="requestAllFields"/> FROM tb_member ORDER BY fighting DESC
+        <if test="null!=requestOffset">
+            LIMIT #{requestOffset}, #{requestCount}
+        </if>
+    </select>
+
+    <select id="get7_14" parameterType="com.vivion.naruto.bean.Member" resultType="com.vivion.naruto.bean.Member">
+        SELECT <include refid="requestAllFields"/> FROM tb_member ORDER BY fighting DESC limit 7,14
+    </select>
+
+    <select id="get15_22" parameterType="com.vivion.naruto.bean.Member" resultType="com.vivion.naruto.bean.Member">
+        SELECT <include refid="requestAllFields"/> FROM tb_member ORDER BY fighting DESC limit 15,22
+    </select>
+
+    <select id="get23_30" parameterType="com.vivion.naruto.bean.Member" resultType="com.vivion.naruto.bean.Member">
+        SELECT <include refid="requestAllFields"/> FROM tb_member ORDER BY fighting DESC limit 23,30
+    </select>
+
     <select id="count" parameterType="com.vivion.naruto.bean.Member" resultType="int">
         SELECT COUNT(1) FROM tb_member <include refid="whereClause" />
     </select>

@@ -4,6 +4,7 @@ import com.hkfs.fundamental.api.data.ResultEx;
 import com.vivion.naruto.NarutoService;
 import com.vivion.naruto.bean.Member;
 import com.vivion.naruto.enums.MemberView;
+import com.vivion.naruto.enums.UserView;
 import com.vivion.naruto.enums.VerifyInfoView;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +32,12 @@ public class NatutoController {
     @RequestMapping(value = "/getUserList")
     public List<Member> getUserList(MemberView memberParamter) {
         return narutoService.getUserList(memberParamter);
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/user")
+    public List<UserView> getUserList() {
+        return narutoService.user();
     }
 
     @ResponseBody

@@ -32,7 +32,7 @@ public class NinjaServiceImpl implements NinjaService {
     public List<MemberNinja> getNinjaList(MemberNinjaView memberNinjaView) {
         MemberNinja memberNinja = new MemberNinja();
         memberNinja.setUserId(memberNinjaView.getUserId());
-        memberNinja.setNinja(memberNinja.getNinja());
+        memberNinja.setNinja(memberNinjaView.getNinja());
         memberNinja.setIsValid(1);
         return memberNinjaDao.query(memberNinja);
     }

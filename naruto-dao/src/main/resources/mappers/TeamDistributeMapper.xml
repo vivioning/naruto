@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vivion.naruto.dao.TeamDistributeDao">
+    
+    <sql id="requestAllFields">
+        <![CDATA[
+            id,
+            teamId,
+            teamName,
+            nickName,
+            isLeader,
+            createTime,
+            isValid
+        ]]>
+    </sql>
+    
+    <sql id="whereClause">
+        <where>
+            <if test="null!=id">AND id = #{id}</if>
+            <if test="null!=teamId">AND teamId = #{teamId}</if>
+            <if test="null!=teamName and ''!=teamName">AND teamName = #{teamName}</if>
+            <if test="null!=nickName and ''!=nickName">AND nickName = #{nickName}</if>
+            <if test="null!=isLeader and ''!=isLeader">AND isLeader = #{isLeader}</if>
+            <if test="null!=isValid">AND isValid = #{isValid}</if>
+            <include refid="extendedWhereClause" />
+        </where>
+    </sql>
+    
+    <insert id="add" useGeneratedKeys="true" parameterType="com.vivion.naruto.bean.TeamDistribute" keyProperty="id">
+        INSERT INTO tb_team_distribute
+        <trim prefix="(" suffix=")" prefixOverrides=",">
+            <if test="null!=teamId">,teamId</if>
+            <if test="null!=teamName and ''!=teamName">,teamName</if>
+            <if test="null!=nickName and ''!=nickName">,nickName</if>
+            <if test="null!=isLeader and ''!=isLeader">,isLeader</if>
+            <if test="null!=createTime">,createTime</if>
+            <if test="null!=isValid">,isValid</if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" prefixOverrides=",">
+            <if test="null!=teamId">,#{teamId}</if>
+            <if test="null!=teamName and ''!=teamName">,#{teamName}</if>
+            <if test="null!=nickName and ''!=nickName">,#{nickName}</if>
+            <if test="null!=isLeader and ''!=isLeader">,#{isLeader}</if>
+            <if test="null!=createTime">,#{createTime}</if>
+            <if test="null!=isValid">,#{isValid}</if>
+        </trim>
+    </insert>
+    
+    <update id="update" parameterType="com.vivion.naruto.bean.TeamDistribute">
+        UPDATE tb_team_distribute
+        <trim prefix="SET" prefixOverrides=",">
+            <if test="null!=teamId">,teamId = #{teamId}</if>
+            <if test="null!=teamName and ''!=teamName">,teamName = #{teamName}</if>
+            <if test="null!=nickName and ''!=nickName">,nickName = #{nickName}</if>
+            <if test="null!=isLeader and ''!=isLeader">,isLeader = #{isLeader}</if>
+            <if test="null!=createTime">,createTime = #{createTime}</if>
+            <if test="null!=isValid">,isValid = #{isValid}</if>
+            <include refid="extendedUpdateSql" />
+        </trim>
+        WHERE id = #{id}
+    </update>
+    
+    <select id="query" parameterType="com.vivion.naruto.bean.TeamDistribute" resultType="com.vivion.naruto.bean.TeamDistribute">
+        SELECT <include refid="requestAllFields"/> FROM tb_team_distribute
+        <include refid="whereClause" />
+        <include refid="extendedOrderByClause" />
+        <if test="null!=requestOffset">
+            LIMIT #{requestOffset}, #{requestCount}
+        </if>
+    </select>
+    
+    <select id="get" parameterType="com.vivion.naruto.bean.TeamDistribute" resultType="com.vivion.naruto.bean.TeamDistribute">
+        SELECT <include refid="requestAllFields"/> FROM tb_team_distribute
+        <include refid="whereClause" />
+        LIMIT 1
+    </select>
+    
+    <select id="getById" parameterType="long" resultType="com.vivion.naruto.bean.TeamDistribute">
+        SELECT <include refid="requestAllFields"/> FROM tb_team_distribute WHERE id = #{id}
+    </select>
+    
+    <select id="count" parameterType="com.vivion.naruto.bean.TeamDistribute" resultType="int">
+        SELECT COUNT(1) FROM tb_team_distribute <include refid="whereClause" />
+    </select>
+    
+    <!-- 扩展的更新等语句（自定义）-->
+    <sql id="extendedUpdateSql">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+    <!-- 扩展的条件过滤语句（自定义）-->
+    <sql id="extendedWhereClause">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+    <!-- 扩展的排序等语句（自定义）-->
+    <sql id="extendedOrderByClause">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+</mapper>

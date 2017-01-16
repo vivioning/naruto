@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vivion.naruto.dao.ForeignAidMemberDao">
+    
+    <sql id="requestAllFields">
+        <![CDATA[
+            id,
+            foreignAidName,
+            fighting,
+            magicResistance,
+            createTime,
+            updateTime,
+            isValid
+        ]]>
+    </sql>
+    
+    <sql id="whereClause">
+        <where>
+            <if test="null!=id">AND id = #{id}</if>
+            <if test="null!=foreignAidName and ''!=foreignAidName">AND foreignAidName = #{foreignAidName}</if>
+            <if test="null!=fighting and ''!=fighting">AND fighting = #{fighting}</if>
+            <if test="null!=magicResistance and ''!=magicResistance">AND magicResistance = #{magicResistance}</if>
+            <if test="null!=isValid">AND isValid = #{isValid}</if>
+            <include refid="extendedWhereClause" />
+        </where>
+    </sql>
+    
+    <insert id="add" useGeneratedKeys="true" parameterType="com.vivion.naruto.bean.ForeignAidMember" keyProperty="id">
+        INSERT INTO tb_foreign_aid_member
+        <trim prefix="(" suffix=")" prefixOverrides=",">
+            <if test="null!=foreignAidName and ''!=foreignAidName">,foreignAidName</if>
+            <if test="null!=fighting and ''!=fighting">,fighting</if>
+            <if test="null!=magicResistance and ''!=magicResistance">,magicResistance</if>
+            <if test="null!=createTime">,createTime</if>
+            <if test="null!=updateTime">,updateTime</if>
+            <if test="null!=isValid">,isValid</if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" prefixOverrides=",">
+            <if test="null!=foreignAidName and ''!=foreignAidName">,#{foreignAidName}</if>
+            <if test="null!=fighting and ''!=fighting">,#{fighting}</if>
+            <if test="null!=magicResistance and ''!=magicResistance">,#{magicResistance}</if>
+            <if test="null!=createTime">,#{createTime}</if>
+            <if test="null!=updateTime">,#{updateTime}</if>
+            <if test="null!=isValid">,#{isValid}</if>
+        </trim>
+    </insert>
+    
+    <update id="update" parameterType="com.vivion.naruto.bean.ForeignAidMember">
+        UPDATE tb_foreign_aid_member
+        <trim prefix="SET" prefixOverrides=",">
+            <if test="null!=foreignAidName and ''!=foreignAidName">,foreignAidName = #{foreignAidName}</if>
+            <if test="null!=fighting and ''!=fighting">,fighting = #{fighting}</if>
+            <if test="null!=magicResistance and ''!=magicResistance">,magicResistance = #{magicResistance}</if>
+            <if test="null!=createTime">,createTime = #{createTime}</if>
+            <if test="null!=updateTime">,updateTime = #{updateTime}</if>
+            <if test="null!=isValid">,isValid = #{isValid}</if>
+            <include refid="extendedUpdateSql" />
+        </trim>
+        WHERE id = #{id}
+    </update>
+    
+    <select id="query" parameterType="com.vivion.naruto.bean.ForeignAidMember" resultType="com.vivion.naruto.bean.ForeignAidMember">
+        SELECT <include refid="requestAllFields"/> FROM tb_foreign_aid_member
+        <include refid="whereClause" />
+        <include refid="extendedOrderByClause" />
+        <if test="null!=requestOffset">
+            LIMIT #{requestOffset}, #{requestCount}
+        </if>
+    </select>
+    
+    <select id="get" parameterType="com.vivion.naruto.bean.ForeignAidMember" resultType="com.vivion.naruto.bean.ForeignAidMember">
+        SELECT <include refid="requestAllFields"/> FROM tb_foreign_aid_member
+        <include refid="whereClause" />
+        LIMIT 1
+    </select>
+    
+    <select id="getById" parameterType="long" resultType="com.vivion.naruto.bean.ForeignAidMember">
+        SELECT <include refid="requestAllFields"/> FROM tb_foreign_aid_member WHERE id = #{id}
+    </select>
+    
+    <select id="count" parameterType="com.vivion.naruto.bean.ForeignAidMember" resultType="int">
+        SELECT COUNT(1) FROM tb_foreign_aid_member <include refid="whereClause" />
+    </select>
+    
+    <!-- 扩展的更新等语句（自定义）-->
+    <sql id="extendedUpdateSql">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+    <!-- 扩展的条件过滤语句（自定义）-->
+    <sql id="extendedWhereClause">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+    <!-- 扩展的排序等语句（自定义）-->
+    <sql id="extendedOrderByClause">
+        <if test="null!=extendedParameter">
+            
+        </if>
+    </sql>
+    
+</mapper>
