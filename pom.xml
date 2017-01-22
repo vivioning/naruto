@@ -22,6 +22,7 @@
         <module>naruto-service</module>
         <module>naruto-webapp</module>
         <module>naruto-codegenerator</module>
+        <module>naruto-utils</module>
     </modules>
 
     <properties>
