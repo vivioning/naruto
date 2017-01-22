@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.tycho:org.eclipse.jdt.core:3.6.2.v_A76_R36x">
+    <CLASSES>
+      <root url="jar://E:/repo/m2repo/hakim/public1/org/eclipse/tycho/org.eclipse.jdt.core/3.6.2.v_A76_R36x/org.eclipse.jdt.core-3.6.2.v_A76_R36x.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repo/m2repo/hakim/public1/org/eclipse/tycho/org.eclipse.jdt.core/3.6.2.v_A76_R36x/org.eclipse.jdt.core-3.6.2.v_A76_R36x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repo/m2repo/hakim/public1/org/eclipse/tycho/org.eclipse.jdt.core/3.6.2.v_A76_R36x/org.eclipse.jdt.core-3.6.2.v_A76_R36x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

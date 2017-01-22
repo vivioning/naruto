@@ -26,7 +26,7 @@ public class HyrzCodeGenerator {
         Config.addFullClass("org.springframework.stereotype.Repository");
     }
 
-    static Connection connection = new Connection("101.200.57.149", 3306, "naruto_bak", "root", "123456");
+    static Connection connection = new Connection("101.200.57.149", 3306, "naruto", "root", "123456");
 
     private static final String ROOT = ".";
 
@@ -55,7 +55,7 @@ public class HyrzCodeGenerator {
         //查询数据库获取table
         Table[] tables = MySql.newInstance(connection)
                 .include(
-                        "tb_team_distribute"
+                        "tb_novel_jsxs"
                 ).getTables();
         //将table转换成class
         com.hkfs.fundamental.codegenerator.basis.data.Class[] pojoClasses = tableToClassTranslator.translate(tables);

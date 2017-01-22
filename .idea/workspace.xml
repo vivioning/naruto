@@ -1,16 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e6f156b-20c5-49a0-a80b-99bdf0ec23be" name="Default" comment="小队分配功能新增">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/NovelService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NovelServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-utils/src/main/java/SpiderNovel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NovelController.java" />
+    <list default="true" id="2e6f156b-20c5-49a0-a80b-99bdf0ec23be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hkfs_hkfs_fundamental_api_1_1_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hkfs_hkfs_fundamental_codegenerator_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jspider_jspider_common_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jspider_jspider_core_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_31.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_osgi_foundation_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_contenttype_3_4_100_v20100505_1235.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_expressions_3_4_200_v20100505.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_filesystem_1_3_0_v20100526_0737.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_jobs_3_5_0_v20100515.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_resources_3_6_0_v20100526_0737.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_org_eclipse_core_runtime_3_6_0_v20100505.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_app_1_3_0_v20100512.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_common_3_6_0_v20100503.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_preferences_3_3_0_v20100503.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_registry_3_5_0_v20100503.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_osgi_org_eclipse_osgi_3_6_0_v20100517.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_osgi_org_eclipse_osgi_services_3_2_100_v20100503.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_tycho_org_eclipse_jdt_core_3_6_2_v_A76_R36x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_xsoup_0_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-dao/src/main/java/com/vivion/naruto/dao/NovelJsxsDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-dao/src/main/resources/mappers/NovelJsxsMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-model/src/main/java/com/vivion/naruto/bean/NovelJsxs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naruto-utils/naruto-utils.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-service/naruto-service.iml" afterPath="$PROJECT_DIR$/naruto-service/naruto-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-service/pom.xml" afterPath="$PROJECT_DIR$/naruto-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-utils/pom.xml" afterPath="$PROJECT_DIR$/naruto-utils/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-webapp/naruto-webapp.iml" afterPath="$PROJECT_DIR$/naruto-webapp/naruto-webapp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java" afterPath="$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NovelServiceImpl.java" afterPath="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NovelServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naruto-webapp/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/naruto-webapp/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +136,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NovelServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NovelServiceImpl.java">
+      <file leaf-file-name="NovelController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NovelController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="229">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,64 +148,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultEx.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/hkfs/hkfs-fundamental-api/1.1-SNAPSHOT/hkfs-fundamental-api-1.1-20161230.015157-35.jar!/com/hkfs/fundamental/api/data/ResultEx.class">
+      <file leaf-file-name="applicationContext-database.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naruto-dao/src/main/resources/applicationContext-database.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="190">
+              <caret line="10" column="75" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Result.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/hkfs/hkfs-fundamental-api/1.1-SNAPSHOT/hkfs-fundamental-api-1.1-20161230.015157-35.jar!/com/hkfs/fundamental/api/data/Result.class">
+      <file leaf-file-name="NovelServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NovelServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="278">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataObjectBase.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/hkfs/hkfs-fundamental-api/1.1-SNAPSHOT/hkfs-fundamental-api-1.1-20161230.015157-35.jar!/com/hkfs/fundamental/api/data/DataObjectBase.class">
+      <file leaf-file-name="HyrzCodeGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serializable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/io/Serializable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logger.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar!/org/slf4j/Logger.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1026">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="304">
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -158,7 +224,6 @@
         <option value="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NinjaController.java" />
         <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/NinjaService.java" />
         <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/enums/MemberView.java" />
-        <option value="$PROJECT_DIR$/naruto-webapp/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NatutoController.java" />
         <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/NarutoService.java" />
         <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/enums/VerifyInfoView.java" />
@@ -167,7 +232,6 @@
         <option value="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NinjaServiceImpl.java" />
         <option value="$PROJECT_DIR$/naruto-dao/src/main/resources/mappers/MemberMapper.xml" />
         <option value="$PROJECT_DIR$/naruto-dao/src/main/java/com/vivion/naruto/dao/MemberDao.java" />
-        <option value="$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java" />
         <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/enums/TeamDistribute.java" />
         <option value="$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/TeamController.java" />
         <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/TeamService.java" />
@@ -176,6 +240,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/naruto-utils/pom.xml" />
         <option value="$PROJECT_DIR$/naruto-api/src/main/java/com/vivion/naruto/enums/TeamView.java" />
+        <option value="$PROJECT_DIR$/naruto-webapp/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NovelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java" />
       </list>
     </option>
   </component>
@@ -387,6 +454,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -496,6 +567,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto-codegenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="naruto-codegenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -542,7 +653,7 @@
       <recent name="H:\naruto\naruto-webapp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.HyrzCodeGenerator">
     <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1044,8 +1155,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HyrzCodeGenerator" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HyrzCodeGenerator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -1167,11 +1278,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484558558541</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="小队分配功能新增">
+      <created>1485073009562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1485073009562</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41375000" />
+    <option name="totallyTimeSpent" value="42224000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1188,18 +1306,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32589287" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32589287" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5022051" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22707888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.390625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.390625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3158482" sideWeight="0.49779493" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4174107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.625" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1249,1283 +1367,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/x/Test.java" />
-    <entry file="jar://E:/maven_jar/com/hkfs/hkfs-fundamental-database/1.1-SNAPSHOT/hkfs-fundamental-database-1.1-20161230.015159-38.jar!/com/hkfs/fundamental/database/FundamentalMapperScannerConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naruto-dao/src/main/java/com/vivion/naruto/dao/base/DaoBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_jar/org/mybatis/mybatis-spring/1.2.1/mybatis-spring-1.2.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.vivion:naruto-webapp:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.vivion:naruto-webapp:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="707.1225537166089">com.vivion:naruto-webapp:1.0-SNAPSHOT</node>
-            <node x="232.0" y="951.1535060975611">com.vivion:naruto-service:jar:1.0-SNAPSHOT</node>
-            <node x="515.0" y="808.2106667722517">com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT</node>
-            <node x="753.0" y="756.2106667722517">com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.40</node>
-            <node x="775.5" y="932.6535060975611">com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT</node>
-            <node x="1001.0" y="968.1535060975611">com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT/com.hkfs:hkfs-fundamental-api:jar:1.1-20161230.015157-35</node>
-            <node x="1000.5" y="897.1535060975611">com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.31</node>
-            <node x="517.5" y="1051.2225537166087">com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT</node>
-            <node x="753.0" y="1168.9382245802972">com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.31</node>
-            <node x="485.5" y="1122.2225537166087">com.vivion:naruto-service:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.31</node>
-            <node x="2036.5" y="26.0">org.springframework:spring-jdbc:jar:4.3.5.RELEASE</node>
-            <node x="2445.0" y="233.80876267779774">org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE</node>
-            <node x="2636.0" y="376.9129293444644">org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE</node>
-            <node x="2252.5" y="26.63650000000007">org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-tx:jar:4.3.5.RELEASE</node>
-            <node x="992.0" y="788.9308870499422">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE</node>
-            <node x="1270.5" y="482.8132067627494">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE</node>
-            <node x="1820.5" y="583.8572068683345">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE</node>
-            <node x="1523.5" y="576.0238735350013">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE</node>
-            <node x="1520.0" y="363.8882067627494">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE</node>
-            <node x="1811.0" y="464.2738735350012">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8</node>
-            <node x="2031.0" y="472.0238735350012">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8/ch.qos.logback:logback-core:jar:1.1.8</node>
-            <node x="1820.0" y="322.27387353500126">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.22</node>
-            <node x="1826.5" y="393.2738735350012">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.22</node>
-            <node x="1811.5" y="199.7350537166089">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.22</node>
-            <node x="1571.0" y="524.0238735350013">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
-            <node x="1248.0" y="1002.0738735350012">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE</node>
-            <node x="1797.0" y="1023.5975537166088">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.6</node>
-            <node x="1551.0" y="939.5975537166088">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.6</node>
-            <node x="1525.0" y="1010.5975537166088">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.6</node>
-            <node x="1271.5" y="734.4905402016677">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final</node>
-            <node x="1562.0" y="740.4308870499422">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="1561.0" y="655.3975537166089">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="1573.0" y="811.4308870499422">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.3.3</node>
-            <node x="1276.5" y="262.49999999999994">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5</node>
-            <node x="1543.0" y="221.88820676274946">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5</node>
-            <node x="1564.0" y="292.8882067627494">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-core:jar:2.8.5</node>
-            <node x="1822.5" y="845.1808870499422">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE</node>
-            <node x="2246.0" y="854.9517203832754">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE</node>
-            <node x="2028.0" y="734.3632067627493">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE</node>
-            <node x="1557.0" y="868.5975537166088">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE</node>
-            <node x="2226.0" y="712.2382067627493">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE</node>
-            <node x="204.0" y="323.2975537166089">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE</node>
-            <node x="767.5" y="602.0238735350013">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.3.RELEASE</node>
-            <node x="457.0" y="639.0596531517256">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.3.RELEASE</node>
-            <node x="520.5" y="178.5">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
-            <node x="784.5" y="191.5">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
-            <node x="1015.5" y="191.5">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
-            <node x="1315.0" y="191.5">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
-            <node x="2047.0" y="288.2263198183923">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
-            <node x="536.0" y="369.37499999999994">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/junit:junit:jar:4.12</node>
-            <node x="513.5" y="107.5">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.assertj:assertj-core:jar:2.5.0</node>
-            <node x="509.0" y="298.37499999999994">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
-            <node x="788.0" y="290.62499999999994">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
-            <node x="773.5" y="382.37499999999994">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="500.5" y="425.06249999999994">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="518.5" y="36.5">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0</node>
-            <node x="803.5" y="36.5">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0/org.json:json:jar:20140107</node>
-            <node x="2452.0" y="10.5">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-test:jar:4.3.5.RELEASE</node>
-            <node x="1040.5" y="1217.7488735350012">org.mybatis:mybatis:jar:3.2.6</node>
-            <node x="1019.5" y="717.9308870499422">org.mybatis:mybatis-spring:jar:1.2.1</node>
-            <node x="211.0" y="459.1100537166089">mysql:mysql-connector-java:jar:5.1.31</node>
-            <node x="1017.0" y="1120.5917781913208">commons-dbcp:commons-dbcp:jar:1.4</node>
-            <node x="1282.5" y="1120.5917781913208">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.6</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
-              <point x="72.5" y="-10.333333333333371" />
-              <point x="1440.0" y="739.6572068683345" />
-              <point x="1520.0" y="670.8975537166089" />
-              <point x="-57.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.1">
-              <point x="50.0" y="-12.916666666666629" />
-              <point x="673.0" y="810.7940001055852" />
-              <point x="753.0" y="710.9106667722517" />
-              <point x="912.0" y="710.9106667722517" />
-              <point x="992.0" y="733.4308870499422" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE">
-              <point x="73.5" y="12.399999999999977" />
-              <point x="1440.0" y="510.7132067627494" />
-              <point x="-95.0" y="-7.75" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE">
-              <point x="50.0" y="-2.5833333333333712" />
-              <point x="912.0" y="821.1273334389184" />
-              <point x="-88.0" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.1">
-              <point x="58.5" y="-13.5625" />
-              <point x="377.0" y="953.0910060975611" />
-              <point x="457.0" y="704.7106667722517" />
-              <point x="912.0" y="704.7106667722517" />
-              <point x="992.0" y="727.2308870499421" />
-              <point x="-60.5" y="-6.2000000000000455" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE">
-              <point x="58.5" y="-9.6875" />
-              <point x="377.0" y="956.9660060975611" />
-              <point x="457.0" y="797.7106667722517" />
-              <point x="-88.0" y="-6.2000000000000455" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE">
-              <point x="57.0" y="-7.75" />
-              <point x="912.0" y="940.4035060975611" />
-              <point x="-88.0" y="12.399999999999977" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="49.5" y="-7.75" />
-              <point x="2365.0" y="322.61861858379785" />
-              <point x="-55.5" y="7.750000000000001" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.1">
-              <point x="57.0" y="-12.916666666666629" />
-              <point x="912.0" y="935.2368394308945" />
-              <point x="992.0" y="745.8308870499421" />
-              <point x="-60.5" y="12.399999999999977" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE">
-              <point x="65.0" y="-0.0" />
-              <point x="1717.0" y="617.5238735350013" />
-              <point x="1797.0" y="609.6905402016679" />
-              <point x="-52.0" y="10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1">
-              <point x="56.0" y="-7.75" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1">
-              <point x="48.0" y="-0.0" />
-              <point x="-64.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="52.0" y="7.75" />
-              <point x="2556.0" y="724.1892860235004" />
-              <point x="-51.0" y="6.458333333333343" />
-            </edge>
-            <edge source="com.vivion:naruto-webapp:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE">
-              <point x="62.0" y="-13.285714285714334" />
-              <point x="-86.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE">
-              <point x="88.0" y="12.916666666666629" />
-              <point x="-96.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE">
-              <point x="88.0" y="2.5833333333333712" />
-              <point x="1248.0" y="852.9308870499422" />
-              <point x="-50.0" y="-7.75" />
-            </edge>
-            <edge source="com.vivion:naruto-webapp:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE">
-              <point x="62.0" y="-0.0" />
-              <point x="204.0" y="745.7106667722517" />
-              <point x="912.0" y="745.7106667722517" />
-              <point x="-88.0" y="-12.399999999999977" />
-            </edge>
-            <edge source="com.vivion:naruto-webapp:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.31">
-              <point x="62.0" y="-8.85714285714289" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="56.0" y="7.75" />
-              <point x="673.0" y="321.62499999999994" />
-              <point x="753.0" y="386.24999999999994" />
-              <point x="-59.0" y="-11.625" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE">
-              <point x="59.0" y="11.625" />
-              <point x="2226.0" y="860.1183870499422" />
-              <point x="-49.5" y="-10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.6">
-              <point x="96.0" y="-10.333333333333371" />
-              <point x="1520.0" y="955.0975537166088" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-webapp:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.4">
-              <point x="62.0" y="8.85714285714289" />
-              <point x="204.0" y="1267.5096531517256" />
-              <point x="912.0" y="1267.5096531517256" />
-              <point x="992.0" y="1148.491778191321" />
-              <point x="-63.0" y="12.400000000000091" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
-              <point x="86.5" y="8.454545454545439" />
-              <point x="457.0" y="440.56249999999994" />
-              <point x="-64.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-core:jar:2.8.5">
-              <point x="67.5" y="7.75" />
-              <point x="1440.0" y="285.74999999999994" />
-              <point x="1520.0" y="308.3882067627494" />
-              <point x="-54.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.6">
-              <point x="96.0" y="10.333333333333258" />
-              <point x="1520.0" y="1052.0975537166087" />
-              <point x="1717.0" y="1052.0975537166087" />
-              <point x="-75.5" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE">
-              <point x="50.0" y="3.875" />
-              <point x="2146.0" y="864.5558870499422" />
-              <point x="2226.0" y="870.4517203832754" />
-              <point x="-49.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.1">
-              <point x="47.5" y="-13.28571428571422" />
-              <point x="673.0" y="1053.4368394308945" />
-              <point x="753.0" y="847.2761429627279" />
-              <point x="912.0" y="847.2761429627279" />
-              <point x="992.0" y="739.6308870499422" />
-              <point x="-60.5" y="6.2000000000000455" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3">
-              <point x="64.5" y="-0.0" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE">
-              <point x="52.0" y="7.75" />
-              <point x="1948.0" y="607.1072068683345" />
-              <point x="-59.0" y="-10.333333333333371" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
-              <point x="50.0" y="12.916666666666629" />
-              <point x="673.0" y="836.6273334389184" />
-              <point x="753.0" y="1139.967986485059" />
-              <point x="912.0" y="1139.967986485059" />
-              <point x="992.0" y="1227.048873535001" />
-              <point x="-39.5" y="-6.2000000000000455" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
-              <point x="58.5" y="13.5625" />
-              <point x="377.0" y="980.2160060975611" />
-              <point x="457.0" y="1278.5096531517256" />
-              <point x="912.0" y="1278.5096531517256" />
-              <point x="992.0" y="1239.448873535001" />
-              <point x="-39.5" y="6.2000000000000455" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="61.5" y="12.916666666666671" />
-              <point x="1717.0" y="441.84778525046454" />
-              <point x="1797.0" y="566.053761904762" />
-              <point x="2556.0" y="566.053761904762" />
-              <point x="-51.0" y="3.875" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8/ch.qos.logback:logback-core:jar:1.1.8">
-              <point x="61.5" y="7.75" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.assertj:assertj-core:jar:2.5.0">
-              <point x="86.5" y="-5.636363636363626" />
-              <point x="457.0" y="123.0" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final">
-              <point x="88.0" y="-2.5833333333333712" />
-              <point x="1248.0" y="749.9905402016677" />
-              <point x="-72.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/junit:junit:jar:4.12">
-              <point x="86.5" y="2.818181818181813" />
-              <point x="457.0" y="384.87499999999994" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final">
-              <point x="72.5" y="-0.0" />
-              <point x="1440.0" y="749.9905402016677" />
-              <point x="1520.0" y="755.9308870499422" />
-              <point x="-56.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="86.5" y="5.636363636363626" />
-              <point x="457.0" y="410.87499999999994" />
-              <point x="673.0" y="410.87499999999994" />
-              <point x="753.0" y="401.74999999999994" />
-              <point x="-59.0" y="3.875" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="50.5" y="10.333333333333314" />
-              <point x="2226.0" y="181.07695191713123" />
-              <point x="2365.0" y="181.07695191713123" />
-              <point x="-55.5" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0">
-              <point x="86.5" y="-8.454545454545439" />
-              <point x="457.0" y="52.0" />
-              <point x="-46.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.6" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.6">
-              <point x="93.5" y="-0.0" />
-              <point x="-75.5" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE">
-              <point x="50.0" y="-3.875" />
-              <point x="1948.0" y="856.8058870499422" />
-              <point x="-59.0" y="10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="73.5" y="12.399999999999977" />
-              <point x="1440.0" y="883.8311185837978" />
-              <point x="1520.0" y="1052.5745952380953" />
-              <point x="2556.0" y="1052.5745952380953" />
-              <point x="-51.0" y="9.041666666666657" />
-            </edge>
-            <edge source="com.vivion:naruto-webapp:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT">
-              <point x="62.0" y="4.428571428571445" />
-              <point x="204.0" y="966.6535060975611" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="69.5" y="-0.0" />
-              <point x="2556.0" y="540.053761904762" />
-              <point x="-51.0" y="1.2916666666666572" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
-              <point x="57.0" y="12.916666666666629" />
-              <point x="912.0" y="961.0701727642278" />
-              <point x="992.0" y="1220.848873535001" />
-              <point x="-39.5" y="-12.400000000000091" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-tx:jar:4.3.5.RELEASE">
-              <point x="47.5" y="-13.285714285714278" />
-              <point x="673.0" y="268.4977852504645" />
-              <point x="753.0" y="15.5" />
-              <point x="2146.0" y="15.5" />
-              <point x="2226.0" y="34.38650000000007" />
-              <point x="-43.0" y="-7.75" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.31">
-              <point x="57.0" y="-2.5833333333333712" />
-              <point x="912.0" y="945.5701727642278" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-webapp:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
-              <point x="62.0" y="13.285714285714334" />
-              <point x="204.0" y="1284.709653151726" />
-              <point x="912.0" y="1284.709653151726" />
-              <point x="992.0" y="1245.6488735350013" />
-              <point x="-39.5" y="12.400000000000091" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19">
-              <point x="86.5" y="-0.0" />
-              <point x="457.0" y="313.87499999999994" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8">
-              <point x="98.5" y="11.625" />
-              <point x="1797.0" y="479.7738735350012" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.4">
-              <point x="47.5" y="4.428571428571331" />
-              <point x="673.0" y="1071.1511251451802" />
-              <point x="753.0" y="1158.4382245802972" />
-              <point x="912.0" y="1158.4382245802972" />
-              <point x="992.0" y="1136.0917781913208" />
-              <point x="-63.0" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT">
-              <point x="58.5" y="-1.9375" />
-              <point x="377.0" y="964.7160060975611" />
-              <point x="457.0" y="948.1535060975611" />
-              <point x="-57.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.3.RELEASE">
-              <point x="86.5" y="11.272727272727252" />
-              <point x="457.0" y="609.7738735350013" />
-              <point x="-65.0" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="59.0" y="-3.875" />
-              <point x="2226.0" y="434.09778525046454" />
-              <point x="2365.0" y="434.09778525046454" />
-              <point x="-55.5" y="12.916666666666686" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.3.3">
-              <point x="72.5" y="10.333333333333371" />
-              <point x="1440.0" y="760.3238735350012" />
-              <point x="1520.0" y="826.9308870499422" />
-              <point x="-45.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE">
-              <point x="59.0" y="-3.875" />
-              <point x="-69.5" y="7.75" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT">
-              <point x="50.0" y="2.5833333333333712" />
-              <point x="673.0" y="826.2940001055852" />
-              <point x="753.0" y="937.8201727642278" />
-              <point x="-57.0" y="-10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1">
-              <point x="44.5" y="7.75" />
-              <point x="673.0" y="201.75" />
-              <point x="753.0" y="207.0" />
-              <point x="-48.0" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.31">
-              <point x="58.5" y="5.8125" />
-              <point x="377.0" y="972.4660060975611" />
-              <point x="457.0" y="1137.7225537166087" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE">
-              <point x="61.5" y="-2.5833333333333712" />
-              <point x="1717.0" y="881.5142203832754" />
-              <point x="1797.0" y="868.4308870499422" />
-              <point x="-50.0" y="7.75" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
-              <point x="47.5" y="13.28571428571422" />
-              <point x="673.0" y="1080.008268002323" />
-              <point x="753.0" y="1256.5096531517256" />
-              <point x="912.0" y="1256.5096531517256" />
-              <point x="992.0" y="1233.2488735350012" />
-              <point x="-39.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE">
-              <point x="73.5" y="-12.399999999999977" />
-              <point x="1440.0" y="485.91320676274944" />
-              <point x="-98.5" y="-0.0" />
-            </edge>
-            <edge source="commons-dbcp:commons-dbcp:jar:1.4" target="commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.6">
-              <point x="63.0" y="-0.0" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT">
-              <point x="58.5" y="1.9375" />
-              <point x="377.0" y="968.5910060975611" />
-              <point x="457.0" y="1066.7225537166087" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5">
-              <point x="67.5" y="-7.75" />
-              <point x="1440.0" y="270.24999999999994" />
-              <point x="1520.0" y="237.38820676274946" />
-              <point x="-75.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.40">
-              <point x="50.0" y="-7.75" />
-              <point x="673.0" y="815.9606667722517" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="50.0" y="-3.875" />
-              <point x="2365.0" y="237.97278525046454" />
-              <point x="-55.5" y="-2.5833333333333144" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE">
-              <point x="73.5" y="6.199999999999989" />
-              <point x="1440.0" y="504.5132067627494" />
-              <point x="1520.0" y="565.5238735350013" />
-              <point x="1717.0" y="565.5238735350013" />
-              <point x="1797.0" y="589.0238735350011" />
-              <point x="-52.0" y="-10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.22" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="52.5" y="-0.0" />
-              <point x="1948.0" y="337.77387353500126" />
-              <point x="2028.0" y="303.7263198183923" />
-              <point x="-40.0" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT">
-              <point x="47.5" y="-4.428571428571331" />
-              <point x="673.0" y="1062.2939822880376" />
-              <point x="753.0" y="958.4868394308945" />
-              <point x="-57.0" y="10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE">
-              <point x="61.5" y="-12.916666666666629" />
-              <point x="1717.0" y="871.1808870499422" />
-              <point x="1797.0" y="719.9882067627493" />
-              <point x="-69.5" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE">
-              <point x="95.0" y="-0.0" />
-              <point x="1797.0" y="599.3572068683345" />
-              <point x="-52.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0/org.json:json:jar:20140107">
-              <point x="46.5" y="-0.0" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT">
-              <point x="58.5" y="-5.8125" />
-              <point x="377.0" y="960.8410060975611" />
-              <point x="457.0" y="823.7106667722517" />
-              <point x="-50.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-tx:jar:4.3.5.RELEASE">
-              <point x="50.5" y="1.7763568394002505E-15" />
-              <point x="2226.0" y="49.88650000000007" />
-              <point x="-43.0" y="7.75" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-tx:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="43.0" y="-7.75" />
-              <point x="2556.0" y="34.38650000000007" />
-              <point x="-51.0" y="-11.625" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.4">
-              <point x="57.0" y="7.75" />
-              <point x="912.0" y="955.9035060975611" />
-              <point x="992.0" y="1123.6917781913207" />
-              <point x="-63.0" y="-12.400000000000091" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="29.0" y="-0.0" />
-              <point x="673.0" y="384.87499999999994" />
-              <point x="753.0" y="393.99999999999994" />
-              <point x="-59.0" y="-3.875" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="86.5" y="11.272727272727252" />
-              <point x="457.0" y="1294.6995952380953" />
-              <point x="2556.0" y="1294.6995952380953" />
-              <point x="-51.0" y="14.208333333333343" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.3.RELEASE">
-              <point x="86.5" y="14.090909090909122" />
-              <point x="-108.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.22">
-              <point x="98.5" y="-3.875" />
-              <point x="1797.0" y="337.77387353500126" />
-              <point x="-52.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE">
-              <point x="61.5" y="2.5833333333333712" />
-              <point x="2146.0" y="886.6808870499422" />
-              <point x="2226.0" y="880.7850537166089" />
-              <point x="-49.5" y="10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.6">
-              <point x="96.0" y="-0.0" />
-              <point x="-93.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="49.5" y="7.75" />
-              <point x="2365.0" y="338.11861858379785" />
-              <point x="2445.0" y="353.78528525046454" />
-              <point x="2556.0" y="353.78528525046454" />
-              <point x="-51.0" y="-3.875" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="64.5" y="-0.0" />
-              <point x="673.0" y="440.56249999999994" />
-              <point x="753.0" y="409.49999999999994" />
-              <point x="-59.0" y="11.625" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.22" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="46.0" y="-0.0" />
-              <point x="1948.0" y="408.7738735350012" />
-              <point x="2028.0" y="309.9263198183923" />
-              <point x="-40.0" y="6.199999999999989" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="44.5" y="-7.75" />
-              <point x="673.0" y="186.25" />
-              <point x="753.0" y="155.1875" />
-              <point x="1948.0" y="155.1875" />
-              <point x="2028.0" y="291.32631981839234" />
-              <point x="-40.0" y="-12.399999999999977" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE">
-              <point x="108.0" y="7.75" />
-              <point x="1440.0" y="662.3096531517256" />
-              <point x="-95.0" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.22" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="61.0" y="-0.0" />
-              <point x="1948.0" y="215.2350537166089" />
-              <point x="2028.0" y="297.5263198183923" />
-              <point x="-40.0" y="-6.199999999999989" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-test:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="48.5" y="-0.0" />
-              <point x="-51.0" y="11.625" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5">
-              <point x="88.0" y="-12.916666666666629" />
-              <point x="1248.0" y="277.99999999999994" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.22">
-              <point x="98.5" y="3.875" />
-              <point x="1797.0" y="408.7738735350012" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.22">
-              <point x="98.5" y="-11.625" />
-              <point x="1797.0" y="215.2350537166089" />
-              <point x="-61.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-tx:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="43.0" y="7.75" />
-              <point x="2365.0" y="49.88650000000007" />
-              <point x="-55.5" y="-12.916666666666668" />
-            </edge>
-            <edge source="com.vivion:naruto-webapp:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE">
-              <point x="62.0" y="-9.6875" />
-              <point x="204.0" y="41.5" />
-              <point x="-50.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE">
-              <point x="88.0" y="7.75" />
-              <point x="1248.0" y="884.0975537166088" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-webapp:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.1">
-              <point x="62.0" y="-4.428571428571445" />
-              <point x="204.0" y="698.5106667722517" />
-              <point x="912.0" y="698.5106667722517" />
-              <point x="992.0" y="721.0308870499422" />
-              <point x="-60.5" y="-12.399999999999977" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-dao:jar:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.4">
-              <point x="50.0" y="7.75" />
-              <point x="673.0" y="831.4606667722517" />
-              <point x="753.0" y="974.1535060975611" />
-              <point x="912.0" y="974.1535060975611" />
-              <point x="992.0" y="1129.8917781913208" />
-              <point x="-63.0" y="-6.2000000000000455" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.4">
-              <point x="58.5" y="9.6875" />
-              <point x="377.0" y="976.3410060975611" />
-              <point x="457.0" y="1241.5096531517256" />
-              <point x="912.0" y="1241.5096531517256" />
-              <point x="992.0" y="1142.2917781913209" />
-              <point x="-63.0" y="6.2000000000000455" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-model:jar:1.0-SNAPSHOT/com.hkfs:hkfs-fundamental-api:jar:1.1-20161230.015157-35">
-              <point x="57.0" y="2.5833333333333712" />
-              <point x="912.0" y="950.7368394308945" />
-              <point x="-79.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE">
-              <point x="88.0" y="-7.75" />
-              <point x="1248.0" y="498.3132067627494" />
-              <point x="-73.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="55.5" y="-0.0" />
-              <point x="-51.0" y="-6.458333333333343" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.3.RELEASE">
-              <point x="108.0" y="-7.75" />
-              <point x="753.0" y="625.2738735350013" />
-              <point x="-65.0" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="61.5" y="-7.75" />
-              <point x="1948.0" y="472.0238735350012" />
-              <point x="2028.0" y="316.1263198183923" />
-              <point x="-40.0" y="12.399999999999977" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE">
-              <point x="61.5" y="-7.75" />
-              <point x="1717.0" y="876.3475537166088" />
-              <point x="1797.0" y="749.8632067627493" />
-              <point x="-59.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="50.0" y="-11.625" />
-              <point x="1948.0" y="230.22278525046454" />
-              <point x="2028.0" y="166.45195191713117" />
-              <point x="2556.0" y="166.45195191713117" />
-              <point x="-51.0" y="-9.041666666666686" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="61.5" y="-7.75" />
-              <point x="1717.0" y="421.18111858379785" />
-              <point x="1797.0" y="304.36861858379785" />
-              <point x="2365.0" y="304.36861858379785" />
-              <point x="-55.5" y="2.5833333333333144" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="59.0" y="3.875" />
-              <point x="2556.0" y="445.8061185837979" />
-              <point x="-51.0" y="-1.2916666666666856" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-test:jar:4.3.5.RELEASE">
-              <point x="86.5" y="-11.272727272727252" />
-              <point x="457.0" y="26.0" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0">
-              <point x="86.5" y="-2.818181818181813" />
-              <point x="457.0" y="194.0" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE">
-              <point x="47.5" y="-8.85714285714289" />
-              <point x="673.0" y="1057.865410859466" />
-              <point x="753.0" y="851.7047143912993" />
-              <point x="912.0" y="851.7047143912993" />
-              <point x="-88.0" y="6.2000000000000455" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.yaml:snakeyaml:jar:1.17">
-              <point x="73.5" y="-0.0" />
-              <point x="1440.0" y="498.3132067627494" />
-              <point x="1520.0" y="539.5238735350013" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT" target="com.vivion:naruto-service:jar:1.0-SNAPSHOT/com.vivion:naruto-api:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.31">
-              <point x="47.5" y="8.85714285714289" />
-              <point x="673.0" y="1075.5796965737518" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="50.5" y="-10.333333333333371" />
-              <point x="2226.0" y="16.136500000000183" />
-              <point x="2556.0" y="16.136500000000183" />
-              <point x="-51.0" y="-14.208333333333343" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6770114942528735" x="726.0" y="1186.0" />
-          <SelectedNodes>
-            <node>com.vivion:naruto-webapp:1.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/assembly/assembly.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.vivion:naruto:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.vivion:naruto:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="825.7203442188876">com.vivion:naruto:1.0-SNAPSHOT</node>
-            <node x="152.0" y="286.79534421888764">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE</node>
-            <node x="442.5" y="762.8578442188875">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE</node>
-            <node x="1004.5" y="645.0184980876722">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE</node>
-            <node x="707.5" y="655.8481538687847">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE</node>
-            <node x="704.0" y="833.8578442188875">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE</node>
-            <node x="995.0" y="716.0184980876722">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8</node>
-            <node x="1215.0" y="708.2684980876722">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8/ch.qos.logback:logback-core:jar:1.1.8</node>
-            <node x="1004.0" y="947.9143314210056">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.22</node>
-            <node x="1010.5" y="876.9143314210056">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.22</node>
-            <node x="995.5" y="805.9143314210056">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.22</node>
-            <node x="755.0" y="762.8578442188875">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
-            <node x="420.0" y="136.3064872021181">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE</node>
-            <node x="981.0" y="151.125">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.6</node>
-            <node x="735.0" y="128.625">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.6</node>
-            <node x="709.0" y="199.625">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.6</node>
-            <node x="443.5" y="446.96201088555426">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final</node>
-            <node x="746.0" y="513.8481538687847">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="745.0" y="371.8481538687847">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="757.0" y="442.8481538687847">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.3.3</node>
-            <node x="448.5" y="35.5">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5</node>
-            <node x="727.0" y="0.0">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5</node>
-            <node x="748.0" y="71.0">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-core:jar:2.8.5</node>
-            <node x="1006.5" y="252.96201088555426">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE</node>
-            <node x="1430.0" y="269.1911775522209">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE</node>
-            <node x="1629.0" y="367.73038025889934">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE</node>
-            <node x="1212.0" y="323.46201088555426">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE</node>
-            <node x="741.0" y="300.8481538687847">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE</node>
-            <node x="1410.0" y="452.85538025889934">org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE</node>
-            <node x="153.5" y="1217.6578442188875">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE</node>
-            <node x="737.5" y="584.8481538687847">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.3.RELEASE</node>
-            <node x="408.0" y="611.1053802588993">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.3.RELEASE</node>
-            <node x="471.5" y="1008.6053802588993">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
-            <node x="754.5" y="1031.0893314210057">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
-            <node x="992.0" y="1031.0893314210057">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
-            <node x="1242.0" y="1031.0893314210057">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
-            <node x="1231.0" y="889.0356538687847">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
-            <node x="487.0" y="1173.0893314210057">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/junit:junit:jar:4.12</node>
-            <node x="464.5" y="1381.4178802588995">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.assertj:assertj-core:jar:2.5.0</node>
-            <node x="460.0" y="1310.4178802588995">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
-            <node x="758.0" y="1318.1678802588995">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
-            <node x="743.5" y="1242.7791666666667">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="451.5" y="1244.0893314210057">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="469.5" y="1102.0893314210057">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0</node>
-            <node x="773.5" y="1102.0893314210057">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0/org.json:json:jar:20140107</node>
-            <node x="1820.0" y="367.4731538687847">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE</node>
-            <node x="1636.0" y="1433.4178802588995">org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-test:jar:4.3.5.RELEASE</node>
-            <node x="200.5" y="1530.4178802588995">org.mybatis:mybatis:jar:3.2.6</node>
-            <node x="179.5" y="719.2203442188876">org.mybatis:mybatis-spring:jar:1.2.1</node>
-            <node x="160.5" y="790.2203442188876">mysql:mysql-connector-java:jar:5.1.31</node>
-            <node x="177.0" y="1459.4178802588995">commons-dbcp:commons-dbcp:jar:1.4</node>
-            <node x="454.5" y="1459.4178802588995">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.6</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
-              <point x="72.5" y="-10.333333333333314" />
-              <point x="624.0" y="452.12867755222095" />
-              <point x="704.0" y="387.3481538687847" />
-              <point x="-57.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8">
-              <point x="98.5" y="-11.625" />
-              <point x="981.0" y="731.5184980876722" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE">
-              <point x="36.0" y="-12.916666666666629" />
-              <point x="-88.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE">
-              <point x="73.5" y="-12.399999999999977" />
-              <point x="624.0" y="765.9578442188877" />
-              <point x="-95.0" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.3.RELEASE">
-              <point x="86.5" y="-11.272727272727252" />
-              <point x="408.0" y="652.6053802588993" />
-              <point x="624.0" y="652.6053802588993" />
-              <point x="704.0" y="608.0981538687847" />
-              <point x="-65.0" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE">
-              <point x="59.0" y="11.625" />
-              <point x="-69.5" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.3.3">
-              <point x="72.5" y="-0.0" />
-              <point x="624.0" y="462.46201088555426" />
-              <point x="704.0" y="458.3481538687847" />
-              <point x="-45.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="59.0" y="3.875" />
-              <point x="1410.0" y="442.35538025889934" />
-              <point x="1740.0" y="442.35538025889934" />
-              <point x="-51.0" y="-1.5500000000000114" />
-            </edge>
-            <edge source="com.vivion:naruto:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.1">
-              <point x="36.0" y="-7.75" />
-              <point x="152.0" y="734.7203442188876" />
-              <point x="-60.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="61.5" y="-12.916666666666686" />
-              <point x="901.0" y="303.43148720211803" />
-              <point x="981.0" y="206.96201088555426" />
-              <point x="1740.0" y="206.96201088555426" />
-              <point x="-51.0" y="-13.949999999999989" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1">
-              <point x="44.5" y="7.75" />
-              <point x="624.0" y="1031.8553802588995" />
-              <point x="704.0" y="1046.5893314210057" />
-              <point x="-48.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE">
-              <point x="65.0" y="-0.0" />
-              <point x="901.0" y="600.3481538687847" />
-              <point x="981.0" y="650.185164754339" />
-              <point x="-52.0" y="-10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1">
-              <point x="56.0" y="7.75" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE">
-              <point x="61.5" y="-7.75" />
-              <point x="901.0" y="308.5981538687847" />
-              <point x="981.0" y="276.21201088555426" />
-              <point x="-50.0" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1">
-              <point x="48.0" y="-0.0" />
-              <point x="-64.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE">
-              <point x="73.5" y="6.2000000000000455" />
-              <point x="624.0" y="784.5578442188876" />
-              <point x="-98.5" y="-0.0" />
-            </edge>
-            <edge source="commons-dbcp:commons-dbcp:jar:1.4" target="commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.6">
-              <point x="63.0" y="-0.0" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-test:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="48.5" y="-0.0" />
-              <point x="-51.0" y="13.949999999999989" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5">
-              <point x="67.5" y="-7.75" />
-              <point x="624.0" y="43.25" />
-              <point x="704.0" y="15.5" />
-              <point x="-75.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE">
-              <point x="88.0" y="-7.75" />
-              <point x="-96.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE">
-              <point x="88.0" y="-2.5833333333333144" />
-              <point x="408.0" y="246.375" />
-              <point x="901.0" y="246.375" />
-              <point x="981.0" y="260.71201088555426" />
-              <point x="-50.0" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE">
-              <point x="73.5" y="-6.2000000000000455" />
-              <point x="624.0" y="772.1578442188875" />
-              <point x="704.0" y="723.6053802588993" />
-              <point x="901.0" y="723.6053802588993" />
-              <point x="981.0" y="670.8518314210057" />
-              <point x="-52.0" y="10.333333333333371" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.22" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="52.5" y="-0.0" />
-              <point x="1132.0" y="963.4143314210056" />
-              <point x="1212.0" y="910.7356538687848" />
-              <point x="-40.0" y="6.2000000000000455" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE">
-              <point x="61.5" y="12.916666666666686" />
-              <point x="901.0" y="329.2648205354514" />
-              <point x="981.0" y="476.10538025889934" />
-              <point x="-69.5" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="56.0" y="-7.75" />
-              <point x="624.0" y="1318.1678802588995" />
-              <point x="704.0" y="1269.9041666666667" />
-              <point x="-59.0" y="11.625" />
-            </edge>
-            <edge source="com.vivion:naruto:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE">
-              <point x="36.0" y="2.5833333333333712" />
-              <point x="-86.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE">
-              <point x="59.0" y="-11.625" />
-              <point x="1410.0" y="295.0245108855542" />
-              <point x="-49.5" y="10.333333333333314" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE">
-              <point x="95.0" y="-0.0" />
-              <point x="981.0" y="660.5184980876722" />
-              <point x="-52.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.6">
-              <point x="96.0" y="-0.0" />
-              <point x="704.0" y="144.125" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
-              <point x="86.5" y="-0.0" />
-              <point x="408.0" y="1259.5893314210057" />
-              <point x="-64.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.6">
-              <point x="96.0" y="-10.333333333333371" />
-              <point x="704.0" y="118.125" />
-              <point x="901.0" y="118.125" />
-              <point x="-75.5" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5/com.fasterxml.jackson.core:jackson-core:jar:2.8.5">
-              <point x="67.5" y="7.75" />
-              <point x="624.0" y="58.75" />
-              <point x="704.0" y="86.5" />
-              <point x="-54.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE">
-              <point x="50.0" y="-3.875" />
-              <point x="1330.0" y="264.58701088555426" />
-              <point x="1410.0" y="274.3578442188876" />
-              <point x="-49.5" y="-10.333333333333314" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0/org.json:json:jar:20140107">
-              <point x="46.5" y="-0.0" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="29.0" y="-0.0" />
-              <point x="624.0" y="1188.5893314210057" />
-              <point x="704.0" y="1246.6541666666667" />
-              <point x="-59.0" y="-11.625" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.3.RELEASE">
-              <point x="86.5" y="-14.090909090909008" />
-              <point x="-108.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3">
-              <point x="64.5" y="-0.0" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="50.0" y="3.875" />
-              <point x="1132.0" y="272.33701088555426" />
-              <point x="1212.0" y="312.96201088555426" />
-              <point x="1549.0" y="312.96201088555426" />
-              <point x="-55.5" y="-3.875" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="59.0" y="-3.875" />
-              <point x="1549.0" y="335.08701088555426" />
-              <point x="-55.5" y="3.875" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.22">
-              <point x="98.5" y="11.625" />
-              <point x="981.0" y="963.4143314210056" />
-              <point x="-52.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE">
-              <point x="61.5" y="-2.5833333333333144" />
-              <point x="901.0" y="313.7648205354514" />
-              <point x="981.0" y="294.46201088555426" />
-              <point x="1330.0" y="294.46201088555426" />
-              <point x="1410.0" y="284.6911775522209" />
-              <point x="-49.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.6">
-              <point x="96.0" y="10.333333333333343" />
-              <point x="-93.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE">
-              <point x="52.0" y="-7.75" />
-              <point x="1132.0" y="652.7684980876722" />
-              <point x="-59.0" y="10.333333333333314" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="86.5" y="11.272727272727252" />
-              <point x="408.0" y="1422.9178802588995" />
-              <point x="1740.0" y="1422.9178802588995" />
-              <point x="-51.0" y="10.850000000000023" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="64.5" y="-0.0" />
-              <point x="624.0" y="1259.5893314210057" />
-              <point x="704.0" y="1254.4041666666667" />
-              <point x="-59.0" y="-3.875" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8/ch.qos.logback:logback-core:jar:1.1.8">
-              <point x="61.5" y="-7.75" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.22" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="46.0" y="-0.0" />
-              <point x="1132.0" y="892.4143314210056" />
-              <point x="1212.0" y="904.5356538687847" />
-              <point x="-40.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="44.5" y="-7.75" />
-              <point x="624.0" y="1016.3553802588993" />
-              <point x="704.0" y="989.4143314210056" />
-              <point x="1132.0" y="989.4143314210056" />
-              <point x="1212.0" y="916.9356538687847" />
-              <point x="-40.0" y="12.399999999999977" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.assertj:assertj-core:jar:2.5.0">
-              <point x="86.5" y="8.454545454545496" />
-              <point x="408.0" y="1396.9178802588995" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="49.5" y="7.75" />
-              <point x="1549.0" y="292.4411775522209" />
-              <point x="-55.5" y="-11.625" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final">
-              <point x="88.0" y="7.75" />
-              <point x="408.0" y="462.46201088555426" />
-              <point x="-72.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE">
-              <point x="108.0" y="7.75" />
-              <point x="-95.0" y="-7.75" />
-            </edge>
-            <edge source="com.vivion:naruto:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
-              <point x="36.0" y="12.916666666666629" />
-              <point x="152.0" y="1545.9178802588995" />
-              <point x="-39.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.22" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="61.0" y="-0.0" />
-              <point x="1132.0" y="821.4143314210056" />
-              <point x="1212.0" y="898.3356538687847" />
-              <point x="-40.0" y="-6.2000000000000455" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/junit:junit:jar:4.12">
-              <point x="86.5" y="-2.818181818181756" />
-              <point x="408.0" y="1188.5893314210057" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final">
-              <point x="72.5" y="10.333333333333314" />
-              <point x="624.0" y="472.7953442188876" />
-              <point x="704.0" y="529.3481538687847" />
-              <point x="-56.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="86.5" y="2.818181818181756" />
-              <point x="408.0" y="1285.5893314210057" />
-              <point x="624.0" y="1285.5893314210057" />
-              <point x="704.0" y="1262.1541666666667" />
-              <point x="-59.0" y="3.875" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0">
-              <point x="86.5" y="-5.63636363636374" />
-              <point x="408.0" y="1117.5893314210057" />
-              <point x="-46.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.5">
-              <point x="88.0" y="-12.916666666666686" />
-              <point x="408.0" y="51.0" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.6" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.6">
-              <point x="93.5" y="-0.0" />
-              <point x="-75.5" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.22">
-              <point x="98.5" y="3.875" />
-              <point x="981.0" y="892.4143314210056" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.22">
-              <point x="98.5" y="-3.875" />
-              <point x="981.0" y="821.4143314210056" />
-              <point x="-61.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE">
-              <point x="88.0" y="2.5833333333333144" />
-              <point x="408.0" y="316.3481538687847" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE">
-              <point x="61.5" y="7.75" />
-              <point x="901.0" y="324.0981538687847" />
-              <point x="981.0" y="431.35538025889934" />
-              <point x="1549.0" y="431.35538025889934" />
-              <point x="-55.5" y="11.625" />
-            </edge>
-            <edge source="com.vivion:naruto:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.31">
-              <point x="36.0" y="-2.5833333333333712" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE">
-              <point x="50.0" y="11.625" />
-              <point x="1132.0" y="280.08701088555426" />
-              <point x="-59.0" y="-10.333333333333314" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="73.5" y="12.399999999999977" />
-              <point x="624.0" y="790.7578442188876" />
-              <point x="704.0" y="1000.4143314210056" />
-              <point x="1740.0" y="1000.4143314210056" />
-              <point x="-51.0" y="7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE">
-              <point x="88.0" y="12.916666666666686" />
-              <point x="408.0" y="778.3578442188875" />
-              <point x="-73.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="69.5" y="-0.0" />
-              <point x="1740.0" y="468.35538025889934" />
-              <point x="-51.0" y="1.5500000000000114" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="50.0" y="-11.625" />
-              <point x="1132.0" y="256.83701088555426" />
-              <point x="1212.0" y="215.69951088555422" />
-              <point x="1740.0" y="215.69951088555422" />
-              <point x="-51.0" y="-10.850000000000023" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.3.RELEASE">
-              <point x="108.0" y="-7.75" />
-              <point x="704.0" y="592.5981538687847" />
-              <point x="-65.0" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="52.0" y="7.75" />
-              <point x="1740.0" y="668.2684980876722" />
-              <point x="-51.0" y="4.649999999999977" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.8" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22">
-              <point x="61.5" y="7.75" />
-              <point x="1132.0" y="739.2684980876722" />
-              <point x="1212.0" y="892.1356538687847" />
-              <point x="-40.0" y="-12.399999999999977" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-webmvc:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE">
-              <point x="61.5" y="2.5833333333333144" />
-              <point x="901.0" y="318.93148720211803" />
-              <point x="981.0" y="338.96201088555426" />
-              <point x="-59.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-test:jar:4.3.5.RELEASE">
-              <point x="86.5" y="14.090909090909008" />
-              <point x="408.0" y="1448.9178802588995" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0">
-              <point x="86.5" y="-8.454545454545496" />
-              <point x="408.0" y="1024.1053802588995" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="com.vivion:naruto:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.4">
-              <point x="36.0" y="7.75" />
-              <point x="152.0" y="1474.9178802588995" />
-              <point x="-63.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="55.5" y="-0.0" />
-              <point x="-51.0" y="-4.649999999999977" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE/org.yaml:snakeyaml:jar:1.17">
-              <point x="73.5" y="-0.0" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE">
-              <point x="49.5" y="-7.75" />
-              <point x="1740.0" y="276.9411775522209" />
-              <point x="-51.0" y="-7.75" />
-            </edge>
-            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.4.3.RELEASE/org.mockito:mockito-core:jar:1.10.19">
-              <point x="86.5" y="5.63636363636374" />
-              <point x="408.0" y="1325.9178802588995" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6711757269279393" x="-58.0" y="497.0" />
-          <SelectedNodes>
-            <node>com.vivion:naruto:1.0-SNAPSHOT</node>
-            <node>commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.6</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naruto-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2661,13 +1502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -2686,13 +1520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2736,8 +1563,8 @@
         <state relative-caret-position="323">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#687#688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2789,17 +1616,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naruto-dao/src/main/resources/applicationContext-database.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="97" selection-start-line="2" selection-start-column="97" selection-end-line="2" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2854,6 +1675,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2868,6 +1693,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-879">
           <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hkfs/hkfs-fundamental-api/1.1-SNAPSHOT/hkfs-fundamental-api-1.1-20161230.015157-35.jar!/com/hkfs/fundamental/api/data/ResultEx.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hkfs/hkfs-fundamental-api/1.1-SNAPSHOT/hkfs-fundamental-api-1.1-20161230.015157-35.jar!/com/hkfs/fundamental/api/data/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hkfs/hkfs-fundamental-api/1.1-SNAPSHOT/hkfs-fundamental-api-1.1-20161230.015157-35.jar!/com/hkfs/fundamental/api/data/DataObjectBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar!/org/slf4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naruto-webapp/src/main/java/com/vivion/naruto/controller/NovelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jspider/jspider-core/1.0-SNAPSHOT/jspider-core-1.0-20170119.100921-2.jar!/com/jspider/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naruto-dao/src/main/resources/applicationContext-database.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naruto-service/src/main/java/com/vivion/naruto/NovelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naruto-codegenerator/src/main/java/HyrzCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

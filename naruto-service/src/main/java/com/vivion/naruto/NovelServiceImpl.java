@@ -30,7 +30,7 @@ public class NovelServiceImpl implements NovelService {
     public ResultEx getNovel(String date) {
         ResultEx resultEx =new ResultEx();
         try {
-            SpiderConfig spiderConfig = SpiderConfig.create("note", 6);
+            SpiderConfig spiderConfig = SpiderConfig.create("note", 50);
             SiteConfig siteConfig = SiteConfig.create().putCharset("aoyuge", "gbk");
 
             Spider spider = Spider.create(spiderConfig, siteConfig, new NotePageProcessor())
@@ -50,7 +50,14 @@ public class NovelServiceImpl implements NovelService {
     private static class NotePipeline implements Pipeline {
         @Override
         public void persist(Request request, Result result) {
+            for (String name: result.keySet()) {
+                if (name.equals("title")){
 
+                }
+                if (name.equals("content")){
+
+                }
+            }
             System.out.println(result);
         }
     }

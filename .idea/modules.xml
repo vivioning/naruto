@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/naruto.iml" filepath="$PROJECT_DIR$/naruto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naruto-api/naruto-api.iml" filepath="$PROJECT_DIR$/naruto-api/naruto-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naruto-codegenerator/naruto-codegenerator.iml" filepath="$PROJECT_DIR$/naruto-codegenerator/naruto-codegenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naruto-dao/naruto-dao.iml" filepath="$PROJECT_DIR$/naruto-dao/naruto-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naruto-model/naruto-model.iml" filepath="$PROJECT_DIR$/naruto-model/naruto-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naruto-service/naruto-service.iml" filepath="$PROJECT_DIR$/naruto-service/naruto-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naruto-utils/naruto-utils.iml" filepath="$PROJECT_DIR$/naruto-utils/naruto-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naruto-webapp/naruto-webapp.iml" filepath="$PROJECT_DIR$/naruto-webapp/naruto-webapp.iml" />
+    </modules>
+  </component>
+</project>
